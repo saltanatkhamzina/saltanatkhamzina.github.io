@@ -1,15 +1,11 @@
 const links = document.getElementById('links')
 const db = JSON.parse(localStorage.getItem('db'))
-const email = sessionStorage.getItem('email') /null
+const email = sessionStorage.getItem('email')
 const cards = document.querySelector('.row')
 cards.innerHTML = ''
 
 function logOut() {
     sessionStorage.clear()
-}
-
-function _____(allpokemon){
-    
 }
 
 function fetchPokemons(count) {
